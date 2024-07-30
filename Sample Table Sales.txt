@@ -1,0 +1,16 @@
+Sample Table: Sales
+SaleID	 ProductID	Quantity	Price	SaleDate
+1	   101	          2	        10.00	2024-01-01
+2	   102         	  1	        20.00	2024-01-02
+3	   101	          3	        10.00	2024-01-03
+4	   103	          1	        30.00	2024-01-04
+5	   102         	  2	        20.00	2024-01-05
+
+
+1)Count the total number of sales
+2)Count the number of distinct products sold
+3)Calculate the total quantity sold
+4)Calculate the average quantity sold per sale
+5)Find the minimum quantity sold in a single sale
+6)Find the maximum price of products sold
+7)Calculate total quantity sold for each product
