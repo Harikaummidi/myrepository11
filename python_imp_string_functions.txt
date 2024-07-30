@@ -1,0 +1,129 @@
+important Python string functions:
+
+### 1. `len()`
+Returns the length of the string.
+
+s = "Hello, World!"
+print(len(s))  # Output: 13
+
+
+### 2. `upper()`
+Converts all characters in the string to uppercase.
+
+s = "Hello, World!"
+print(s.upper())  # Output: HELLO, WORLD!
+
+
+### 3. `lower()`
+Converts all characters in the string to lowercase.
+
+s = "Hello, World!"
+print(s.lower())  # Output: hello, world!
+
+
+### 4. `strip()`
+Removes any leading and trailing whitespaces from the string.
+
+s = "   Hello, World!   "
+print(s.strip())  # Output: Hello, World!
+
+
+### 5. `split()`
+Splits the string into a list of substrings based on a specified delimiter. The default delimiter is any whitespace.
+
+s = "Hello, World!"
+print(s.split())  # Output: ['Hello,', 'World!']
+print(s.split(','))  # Output: ['Hello', ' World!']
+
+
+### 6. `join()`
+Joins a list of strings into a single string, with a specified delimiter.
+
+words = ['Hello', 'World']
+print(' '.join(words))  # Output: Hello World
+
+
+### 7. `replace()`
+Replaces all occurrences of a specified substring with another substring.
+
+s = "Hello, World!"
+print(s.replace('World', 'Python'))  # Output: Hello, Python!
+
+
+### 8. `find()`
+Returns the index of the first occurrence of a specified substring. Returns `-1` if the substring is not found.
+
+s = "Hello, World!"
+print(s.find('World'))  # Output: 7
+print(s.find('Python'))  # Output: -1
+
+
+### 9. `startswith()`
+Checks if the string starts with a specified substring. Returns `True` or `False`.
+
+s = "Hello, World!"
+print(s.startswith('Hello'))  # Output: True
+print(s.startswith('World'))  # Output: False
+
+
+### 10. `endswith()`
+Checks if the string ends with a specified substring. Returns `True` or `False`.
+
+s = "Hello, World!"
+print(s.endswith('World!'))  # Output: True
+print(s.endswith('Hello'))  # Output: False
+
+
+### 11. `count()`
+Returns the number of occurrences of a specified substring in the string.
+
+s = "Hello, World! World!"
+print(s.count('World'))  # Output: 2
+
+
+### 12. `capitalize()`
+Capitalizes the first character of the string.
+
+s = "hello, world!"
+print(s.capitalize())  # Output: Hello, world!
+
+
+### 13. `title()`
+Capitalizes the first character of each word in the string.
+
+s = "hello, world!"
+print(s.title())  # Output: Hello, World!
+
+
+### 14. `isalpha()`
+Checks if all characters in the string are alphabetic. Returns `True` or `False`.
+
+s = "Hello"
+print(s.isalpha())  # Output: True
+s = "Hello123"
+print(s.isalpha())  # Output: False
+
+
+### 15. `isdigit()`
+Checks if all characters in the string are digits. Returns `True` or `False`.
+
+s = "12345"
+print(s.isdigit())  # Output: True
+s = "12345a"
+print(s.isdigit())  # Output: False
+
+
+### 16. `isalnum()`
+Checks if all characters in the string are alphanumeric (either alphabetic or numeric). Returns `True` or `False`.
+
+s = "Hello123"
+print(s.isalnum())  # Output: True
+s = "Hello 123"
+print(s.isalnum())  # Output: False
+
+
+### 17. `swapcase()`
+Swaps the case of all characters in the string (uppercase to lowercase and vice versa).
+
+s = "Hello, World!"
+print(s.swapcase())  # Output: hELLO, wORLD!
